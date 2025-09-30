@@ -1,0 +1,18 @@
+## ensure thse modules are present 
+import webbrowser
+import pyautogui
+import time
+import os
+import pyperclip
+import google.generativeai as genai
+from tkinter import Tk, Label, Button, Frame, StringVar, simpledialog
+
+gemini api key " your api key "
+## note : you may have to configure to yourl laptop use this program for coordinates 
+PROGRAM : COORDINATES ADJUSTMENT 
+import pyautogui
+import time
+print("You have 5 seconds to move your mouse to the target location...")
+time.sleep(5)
+x, y = pyautogui.position()
+print(f"Mouse is at: X={x}, Y={y}")
